@@ -102,7 +102,9 @@ extern "C" {
 /**
  * \brief This is the EID node number for this instance of a DTN node
  */
+#ifndef BPLIB_LOCAL_EID_NODE_NUM
 #define BPLIB_LOCAL_EID_NODE_NUM                100
+#endif
 
 /**
  * \brief This is the EID service number for this instance of a DTN node. This is not
